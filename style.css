@@ -18,7 +18,7 @@ header,
     color: white;
 }
 body{
-    background-image: url(images/grayback.jpg);
+    background-image: linear-gradient(180deg, #14101f 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/grayback.jpg);
     background-size: cover;
 }
 
@@ -44,4 +44,28 @@ body{
 #iconright{
     float: right;
     display: inline;
+}
+
+/* Image background */
+
+#maxheight{
+    max-height: 408px;
+}
+
+#cover{
+    background-image: url(images/city.jpg);
+    padding-top: 30vh;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    height: 100%;
+    background-position: center;
+}
+
+parallax-home{
+    background-image: url(images/city.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
