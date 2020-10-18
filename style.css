@@ -1,0 +1,43 @@
+html,
+body,
+header,
+#Intro {
+    height: 100%;
+}
+
+#navbar {
+    background-color: #272e36;
+    
+}
+
+#collapseicon {
+    color: white;
+}
+
+#active {
+    color: white;
+}
+body{
+    background-image: url(images/grayback.jpg);
+    background-size: cover;
+}
+
+#nameinfo {
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#name {
+    color: white;
+    font-size: 20px;
+}
+
+#school {
+    color: maroon;
+}
+
+#major {
+    color: white;
+}
+
