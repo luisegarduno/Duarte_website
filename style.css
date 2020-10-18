@@ -41,3 +41,7 @@ body{
     color: white;
 }
 
+#iconright{
+    float: right;
+    display: inline;
+}
