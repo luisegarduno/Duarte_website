@@ -71,3 +71,8 @@ parallax-home{
     background-size: cover;
 
 }
+
+html{
+
+    scroll-behavior: smooth;
+}
