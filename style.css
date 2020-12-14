@@ -61,7 +61,7 @@ body{
 
 #cover{
     background-image: linear-gradient(0deg, rgb(34, 34, 34) 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/city.jpg);
-    padding-top: 30vh;
+
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     height: 100%;
     background-position: center;
@@ -89,4 +89,8 @@ html{
     padding-right: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+#coverphoto{
+    padding-top: 25vh;
 }
