@@ -4,9 +4,12 @@ header,
 #Intro {
     height: 100%;
 }
+.navbar-default{
+    max-width: 100%;
+}
 
 #navbar {
-    background-color: #272e36;
+    background-color: #161f297c;
     
 }
 
@@ -18,8 +21,10 @@ header,
     color: white;
 }
 body{
-    background-image:  url(images/grayback.jpg);
+    background-color: #111;
     background-size: cover;
+    margin: 0;
+    max-width: 100%;
 }
 
 /* linear-gradient(180deg, #14101f 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), */
@@ -55,16 +60,18 @@ body{
 }
 
 #cover{
-    background-image: linear-gradient(0deg, #4c5c69 10%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/city.jpg);
+    background-image: linear-gradient(0deg, rgb(34, 34, 34) 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/city.jpg);
     padding-top: 30vh;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     height: 100%;
     background-position: center;
+    width: 100%;
 }
 
 parallax-home{
     background-image: url(images/city.jpg);
     height: 100%;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,4 +82,11 @@ parallax-home{
 html{
 
     scroll-behavior: smooth;
+}
+
+#aboutme{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }

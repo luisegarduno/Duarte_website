@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
     <title>Josh Duarte's Website</title>
 
 
@@ -18,13 +18,13 @@
   </head>
   <body>
      <!--Navigation Menu-->
-     <nav class="navbar navbar-expand-md  navbar-dark sticky-top" id="navbar">
+     <nav class="navbar navbar-default navbar-expand-md  navbar-dark fixed-top" id="navbar">
         <div class="container-fluid">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <button class="navbar-toggle navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse justify-content-start" id="navbarResponsive">
+                <ul class="navbar-nav nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#cover" id="active">Home</a>
                     </li>
@@ -41,49 +41,15 @@
                         <a class="nav-link" href="Duarte-Joshua-MEEN10_2.pdf" target="_blank">Resume</a>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-left">
-                    <ul class="navbar-nav nav-flex-icons " >
-                        <li class="nav-item">
-                          <a class="nav-link waves-effect waves-light">
-                            <i class="fa fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link waves-effect waves-light">
-                            <i class="fa fa-facebook"></i>
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link waves-effect waves-light">
-                            <i class="fa fa-github"></i>
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link waves-effect waves-light">
-                            <i class="fa fa-linkedin"></i>
-                          </a>
-                        </li>
-                      </ul>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <i class="fa fa-user"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item waves-effect waves-light" href="#">Email</a>
-                          <a class="dropdown-item waves-effect waves-light" href="#">Call</a>
-                          <a class="dropdown-item waves-effect waves-light" href="#">Video Call</a>
-                        </div>
-                      </li>
-                </ul>
+                
             </div>
         </div>
     </nav>
     <!-- End of navigation bar -->
     <!-- Cover area -->
     <div class='container-fluid parallax-home' id="cover">
-        <div class='row align-items-start'>
-            
-        </div>
+      <h1 class="text-center" style="color: grey; font-weight: bold;">Joshua Duarte <span style="color: black;" >|</span> <span style="color: grey;" > Mechanical Engineer</span></h1> 
+      <h4 class="text-center" style="color:black; font-weight:bold;" > Texas A&M University</h3> 
 
 
     </div>
@@ -91,60 +57,60 @@
     <a id="aboutpage">
     
         <!--about me text-->
-        <div class="container-fluid" style="padding-top: 10vh; padding-bottom: 10vh;">
-            <div class="row" id="aboutmecontainer" style='padding-left:5%; padding-right:5%; '>
-                <div class="col-sm-6 align-self-center">
-                    <div class="row justify-content-center">
-                        <img src="images/Duarte.jpg" class="rounded" id="maxheight" >
+        <div class="container-fluid" style="padding-top: 10vh; padding-bottom: 10vh;" id="aboutme">
+            <div class="row align-items-center" id="aboutmecontainer" style='padding-left:5%; padding-right:5%; '>
+                <div class="col-md-6  align-self-center">
+                    <div class="row justify-content-center align-items-start" style="margin-bottom:10px;">
+                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/photo3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/photo2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/photo1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                     </div>
                 </div>
-                <div class="col-md-6 text-fluid">
-                    <h2 class="text-center" style="color: white; padding-bottom:2%;"> About Me </h2>
-                    <p id="aboutmetext" style="color:white;">Lorem ipsum dolor sit amet, ea mel falli hendrerit delicatissimi, pro habeo malis delenit te, id tritani disputationi pri. Natum errem temporibus et duo. Has mazim scaevola vivendum eu. Incorrupte efficiantur ne pro, eam temporibus mediocritatem ea, in lorem audire sit. Sit falli fuisset an, erant errem tamquam pri ei.
-    
-                        Quot postea an has. No agam latine scaevola his. No nec nulla graeco. At eam tation epicuri blandit, ut modo consulatu neglegentur eam. Ad detraxit iracundia moderatius quo, duo nulla nullam veritus ad. Sea no mundi graeci, tempor essent nominavi in cum, no eruditi gloriatur expetendis mel. Aeterno integre minimum no his, ad has ornatus sadipscing, mea voluptatum persequeris ne.
-                        
-                        Te meis aliquando reprimique quo. Eum ad quot accusam, eum odio clita adipisci ex, fastidii expetendis id usu. His justo iuvaret dissentiet id, cu option praesent laboramus mea. Natum malis perpetua pro et.
-                        
-                        Qui ex regione choro oporteat mea. Tritani fastidii reprehendunt mea te, pri impetus delicatissimi ei. Quidam invidunt ad his. Cu soleat commodo malorum eum.
-                        
-                        In vim vide sonet consetetur, dolores delicata repudiandae id sea, mea at movet primis. At dolores dignissim eum, omittam rationibus cum ei. Debitis omittam ad cum. Te sit qualisque imperdiet, est corrumpit expetendis reprimique ei.
-                        Lorem ipsum dolor sit amet, ea mel falli hendrerit delicatissimini disputationi pri. Natum errem temporibus et duo. Has mazim scaevola vivendum eu. Incorrupte efficiantur ne pro, eam temporibus mediocritatem ea, in lorem audire sit. Sit falli fuisset an, erant errem tamquam pri ei.
+                <div class="col-md-6 text-fluid float-right" style= "padding-left: 5%;">
+                  <div class="row  " style="background-color: rgba(78, 74, 74, 0.514); border-radius: 10px;" >  
+                  <h2 class="text-left" style="color: white; padding-bottom:3px; padding-left: 10px;"> About Me </h2>
+                    <p id="aboutmetext" style="color:white; padding-left: 2%; padding-right: 2%; padding-bottom:2%;"> I am Junior at Texas A&M University pursuing Mechanical Engineering. I am also currently serving as the Director of Technical Affairs for the TAMU Society of Hispanic Professional Engineers.
+                      In doing so, I do my best to inspire our members to seek new challenges and learn new skills that can be applied throughout their future endeavors. 
+                       
     
                       
                     </p>
-                </div>
-                
-                
-            </div>
+                    </div>
 
-            <div class="row justify-content-center" style="padding-top: 5%">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/photo1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/photo2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/photo3.jpg" class="d-block w-100" alt="...">
-                  </div>
+                    <div class="row" style="background-color: rgba(78, 74, 74, 0.514); border-radius: 10px; margin-top: 3%;" >  
+                      <h2 class="text-center" style="color: white; padding-bottom:3px; padding-left:10px"> Skills </h2>
+                      <p id="aboutmetext" style="color:white; padding-left: 2%; padding-right: 2%; padding-bottom:2%;">Lorem ipsum dolor sit amet, ea mel falli hendrerit delicatissimi, pro habeo malis delenit te, id tritani disputationi pri. Natum errem temporibus et duo. Has mazim scaevola vivendum eu. Incorrupte efficiantur ne pro, eam temporibus mediocritatem ea, in lorem audire sit. Sit falli fuisset an, erant errem tamquam pri ei.
+      
+                          
+                        </p>
+                    </div>
+
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-            </div>
+                
+                
             </div>
 
         
