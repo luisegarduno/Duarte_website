@@ -1,3 +1,4 @@
+
 html,
 body,
 header,
@@ -60,7 +61,7 @@ body{
 }
 
 #cover{
-    background-image: linear-gradient(0deg, rgb(34, 34, 34) 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/city.jpg);
+    background-image: linear-gradient(0deg, rgb(34, 34, 34) 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/back.png);
 
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     height: 100%;
@@ -68,8 +69,8 @@ body{
     width: 100%;
 }
 
-parallax-home{
-    background-image: url(images/city.jpg);
+.parallax-home{
+    background-image: url(images/back.png);
     height: 100%;
     width: 100%;
     background-attachment: fixed;
@@ -93,4 +94,18 @@ html{
 
 #coverphoto{
     padding-top: 25vh;
+}
+
+@media (max-width: 767px) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+
+  .imagecenter {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
 }
