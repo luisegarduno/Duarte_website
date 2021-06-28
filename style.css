@@ -85,19 +85,19 @@ body{
     display: flex;
     align-items: center;
 }
-@media (min-width: 768px){
+
     .parallax-home{
-        background-image: url(images/Rectangle\ 1.png);
+        background-image: url(images/Rectangle1.png);
         height: 100%;
         width: 100%;
         background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: cover;
+        /* background-size: cover; */
         
     
     }
- }
+ 
 
 
 html{
