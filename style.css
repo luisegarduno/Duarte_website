@@ -85,7 +85,7 @@ body{
     display: flex;
     align-items: center;
 }
-/* @media (min-width: 768px){ */
+@media (min-width: 768px){
     .parallax-home{
         background-image: url(images/Rectangle\ 1.png);
         height: 100%;
@@ -97,7 +97,7 @@ body{
         
     
     }
-/* } */
+ }
 
 
 html{
