@@ -86,10 +86,10 @@ body{
     align-items: center;
 }
 
-/* @media (max-width: 767px) { */
+/* @media (min-width: 767px) { */
     .parallax-home{
         background-image: url(images/Rectangle1.png);
-        height: 100%;
+        height: auto;
         width: 100%;
         background-attachment: fixed;
         background-position: center center;
