@@ -143,3 +143,12 @@ html{
 #Experience {
     padding-bottom: 0;
 }
+
+.hoverblue {
+    color: white;
+}
+
+.hoverblue :hover {
+    color: #0d7797;
+
+}
