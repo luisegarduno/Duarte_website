@@ -85,8 +85,16 @@ body{
     display: flex;
     align-items: center;
 }
+.testback{
+    background-image: url(images/Rectangle1.png);
+    height: auto;
+    width: 100%;
+    background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
 
-/* @media (min-width: 767px) { */
+@media (min-width: 767px) {
     .parallax-home{
         background-image: url(images/Rectangle1.png);
         height: auto;
@@ -98,7 +106,7 @@ body{
         
     
     }
-/* } */
+}
 
 
 html{
