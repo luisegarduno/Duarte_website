@@ -22,11 +22,25 @@ header,
     color: white;
 }
 body{
-    background-color: #111;
+    background-color: #db393400;
     background-size: cover;
     margin: 0;
     max-width: 100%;
     
+}
+
+#back2{
+    background-image: url(images/Rectangle2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#back3{
+    background-image: url(images/Rectangle3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* linear-gradient(180deg, #14101f 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), */
@@ -62,18 +76,18 @@ body{
 }
 
 #cover{
-    background-image: linear-gradient(0deg, rgb(34, 34, 34) 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/background2.jpg);
+    /* background-image: linear-gradient(0deg, rgb(34, 34, 34) 15%, rgba(128, 0, 0, 0) 40%, rgba(128, 0, 0, 0) 40%), url(images/Rectangle\ 1.png); */
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5); */
     height: 100vh;
     background-position: center center;
     max-width: 100%;
     display: flex;
     align-items: center;
 }
-@media (min-width: 767px){
+/* @media (min-width: 768px){ */
     .parallax-home{
-        background-image: url(images/background2.jpg);
+        background-image: url(images/Rectangle\ 1.png);
         height: 100%;
         width: 100%;
         background-attachment: fixed;
@@ -83,7 +97,8 @@ body{
         
     
     }
-}
+/* } */
+
 
 html{
 
@@ -114,4 +129,8 @@ html{
         width: 100%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+}
+
+#Experience {
+    padding-bottom: 0;
 }
