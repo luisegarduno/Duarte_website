@@ -5,6 +5,7 @@ var swiper = new Swiper('.blog-slider', {
   loop: false,
   mousewheel: {
     invert: false,
+    releaseOnEdges: true,
   },
   // autoHeight: true,
   pagination: {
