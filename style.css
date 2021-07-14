@@ -179,17 +179,28 @@ html{
       max-width: 680px;
       height: 400px;
     }
+    .pad_top {
+      margin-top: 20px;
+    }
+    
   }
   @media screen and (max-width: 768px) {
     .blog-slider {
       min-height: 500px;
       height: auto;
       margin: 180px auto;
+      
+    }
+    .pad_top {
+      padding-top: 20px;
     }
   }
   @media screen and (max-height: 500px) and (min-width: 992px) {
     .blog-slider {
       height: 350px;
+    }
+    .pad_top {
+      margin-top: 20px;
     }
   }
   .blog-slider__item {
@@ -199,6 +210,9 @@ html{
   @media screen and (max-width: 768px) {
     .blog-slider__item {
       flex-direction: column;
+    }
+    .pad_top {
+      margin-top: 20px;
     }
   }
   .blog-slider__item.swiper-slide-active .blog-slider__img img {
