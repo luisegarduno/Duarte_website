@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   </head>
   <body>
@@ -75,7 +75,7 @@
             <div class="row align-items-center" id="aboutmecontainer" style='padding-left:5%; padding-right:5%; '>
                 <div class="col-md-6  align-self-center">
                     <div class="row justify-content-center align-items-start">
-                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <div id="carouselExampleIndicators" class="carousel slide" style="max-height: 475px;" data-ride="carousel"  data-aos="fade-right" data-aos-duration="1500">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -83,13 +83,13 @@
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="images/photo3.jpg" class="d-block w-100" alt="...">
+                            <img src="images/photo3.jpg" class="d-block " alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="images/photo2.jpg" class="d-block w-100" alt="...">
+                            <img src="images/photo2.jpg" class="d-block" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="images/photo1.jpg" class="d-block w-100" alt="...">
+                            <img src="images/photo1.jpg" class="d-block " alt="...">
                           </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -103,8 +103,8 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-md-6 text-fluid float-right" style= "padding-left: 5%;">
-                  <div class="row  " style="background-color: #fff; border-radius: 10px;" >  
+                <div class="col-md-6 text-fluid float-right" style= "padding-left: 5%;"  data-aos="fade-left" data-aos-duration="1500">
+                  <div class="row  " style="background-color: #fff; border-radius: 10px; padding: 20px 15px;" >  
                   <h2 class="text-left" style="color: rgb(0, 0, 0); padding-bottom:3px; padding-left: 10px;"> About Me </h2>
                   <p id="aboutmetext" style="color:rgb(27, 27, 27); padding-left: 2%; padding-right: 2%; padding-bottom:2%;">  I am a rising senior at Texas A&M University pursuing Mechanical Engineering. 
                     This past year I served as the director of Technical Affairs for the TAMU Society of Hispanic Professional Engineers. I recently have been elected to serve as President for the organization for the upcoming year. 
@@ -124,9 +124,9 @@
                 <h2 class="text-center" style=" color: white; background-color: #DB3A34; margin-bottom: 0rem; padding-bottom: 1rem;">
                     Experience 
                 </h2>
-              <div class="container-fluid col-md-12 px-3" style="background-color: #DB3A34">
-                <div class="row card-deck" style="padding-left:5%; padding-right:5%; padding-bottom: 1rem ">
-                  <div class="card  text-white" style="background-color: #fff;  border: none;">
+              <div class="container-fluid" style="background-color: #DB3A34">
+                <div class="row card-deck justify-content-center" style="padding-left:5%; padding-right:5%; padding-bottom: 1rem;"  >
+                  <div class="card col-md-4 text-white px-0" style="background-color: #fff;  border: none;">
                     <img src="images/photo1.jpg" class="card-img-top" style="border-bottom: solid; border-color:black; border-width: 1px;" alt="...">
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title"  style="color:black;">TAMU SHPE President</h5>
@@ -164,7 +164,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card  text-white" style="background-color: #fff;  border: none;">
+                  <div class="card col-md-4 text-white px-0" style="background-color: #fff;  border: none;">
                     <img src="images/boeing.png" class="card-img-top" style="border-bottom: solid; border-color:black; border-width: 1px;" alt="...">
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title"  style="color:black;">Boeing</h5>
@@ -176,7 +176,7 @@
                               <h2 style="color: white;">Boeing</h2>
                               <p style="color: rgb(196, 196, 196)">
                                 <h4>Hiring Process</h4>
-                                  In September of 2020, I applied to a Boeing opportunity that had been advertised to the students of the COllege of Engineering at Texas A&M University. Within a few weeks, 
+                                  In September of 2020, I applied to a Boeing opportunity that had been advertised to the students of the College of Engineering at Texas A&M University. Within a few weeks, 
                                   I had been selected to interview for their Engineering Accelerated Hiring Initiative. <br>
                         
                                 <h4>Projects</h4>
@@ -190,7 +190,7 @@
                 </div>
               </div>
           <div class="container-fluid col-md-12" style="background-color: #DB3A34">
-           <div class="row card-deck" style="padding-left:5%; padding-right:5%; ">
+           <div class="row card-deck" style="padding-left:5%; padding-right:5%; " >
                 <div class="card text-white" style="background-color: #fff;  border: none;">
                   <img src="images/exxonmobil.png" class="card-img-top" style="border-bottom: solid; border-color:black; border-width: 1px;" alt="...">
                   <div class="card-body d-flex flex-column ">
@@ -281,7 +281,7 @@
           </h2>
         </a>
       <div class="container-fluid" style= " box-sizing: border-box;">
-      <div class="row" style="padding-top: 5vh; position: left;">
+      <div class="row" style="padding-top: 5vh; position: left;"  data-aos="fade-right" data-aos-duration="1500">
       <div class="col">
       <div class="blog-slider shift_left">
         <div class="blog-slider__wrp swiper-wrapper">
@@ -327,7 +327,7 @@
       </div>
     </div>
     </div>
-    <div class="row" style="padding-top: 5vh;">
+    <div class="row" style="padding-top: 5vh;"  data-aos="fade-left" data-aos-duration="1500">
       <div class="col">
       <div class="blog-slider shift_right2">
         <div class="blog-slider__wrp swiper-wrapper">
@@ -381,7 +381,7 @@
   </div>
 
 
-  <div class="row" style="padding-top: 5vh;">
+  <div class="row" style="padding-top: 5vh;"  data-aos="fade-right" data-aos-duration="1500">
     <div class="col ">
     <div class="blog-slider shift_left">
       <div class="blog-slider__wrp swiper-wrapper">
@@ -432,7 +432,7 @@
 </div>
 
 
-<div class="row" style="padding-top: 5vh;">
+<div class="row" style="padding-top: 5vh;"  data-aos="fade-left" data-aos-duration="1500">
   <div class="col">
   <div class="blog-slider shift_right2">
     <div class="blog-slider__wrp swiper-wrapper">
@@ -492,7 +492,7 @@
           <h2 class="text-center" style="padding-top:7.5%; padding-bottom: 2%; color: white;">
             Recognitions 
           </h2>
-          <div class="container-fluid col-md-10">
+          <div class="container-fluid col-md-10" data-aos="zoom-in" data-aos-duration="1500">
             <div   class="card-deck" style="padding-left: 5%; padding-right: 5%; ">
               <div class="card" style="background-color: #fff;  border: none;">
                 <img class="card-img-top" src="images/ExxonMobil-logo.jpg" style="border-bottom: solid; border-color:black; border-width: 1px;" alt="Card image cap">
@@ -518,8 +518,8 @@
               </div>
             </div>
           </div>
-
-          <div class="container-fluid col-md-10">
+          
+          <div class="container-fluid col-md-10" data-aos="zoom-in" data-aos-duration="1500">
             <div class="card-deck" style="padding-left: 5%; padding-right: 5%; padding-top: 10px ; ">
               <div class="card" style="background-color: #fff;  border: none;">
                 <img class="card-img-top" src="images/spectrum.jpg" style="border-bottom: solid; border-color:black; border-width: 1px;" alt="Card image cap">
@@ -556,6 +556,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="particles.js"> </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 
 
