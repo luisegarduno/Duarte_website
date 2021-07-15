@@ -135,6 +135,10 @@ html{
     background-color: rgba(255, 255, 255, 0);
 }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+  margin:auto;
+}
+
 @media (max-width: 767px) {
     .hidden-xs {
       display: none !important;
@@ -164,6 +168,17 @@ html{
 
 .pad_bot {
   margin-bottom: 30px;
+}
+
+
+.iconify { color: #177e89;  width: 24px; height: 24px;  }
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.img_resiz{
+  width: 24px; height: 24px;
 }
 
 .blog-slider {
