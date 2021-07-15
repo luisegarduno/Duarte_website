@@ -186,9 +186,9 @@ html{
   }
   @media screen and (max-width: 768px) {
     .blog-slider {
-      min-height: 500px;
+      min-height: 400px;
       height: auto;
-      margin: 180px auto;
+      margin: 90px auto;
       
     }
     .pad_top {
