@@ -162,6 +162,10 @@ html{
 
 }
 
+.pad_bot {
+  margin-bottom: 30px;
+}
+
 .blog-slider {
     width: 95%;
     position: relative;
@@ -180,8 +184,10 @@ html{
       height: 400px;
     }
     .pad_top {
-      margin-top: 20px;
+      margin-top: 10px;
     }
+
+    
     
   }
   @media screen and (max-width: 768px) {
@@ -192,8 +198,11 @@ html{
       
     }
     .pad_top {
-      padding-top: 20px;
+      padding-top: 10px;
     }
+
+
+
   }
   @media screen and (max-height: 500px) and (min-width: 992px) {
     .blog-slider {
@@ -202,11 +211,15 @@ html{
     .pad_top {
       margin-top: 20px;
     }
+
+
   }
   .blog-slider__item {
     display: flex;
     align-items: center;
   }
+
+
   @media screen and (max-width: 768px) {
     .blog-slider__item {
       flex-direction: column;
