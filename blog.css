@@ -1,5 +1,18 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+body{
+  margin-top: 2%;
+}
+#navbar-blog {
+  background-color: #161b20f3;
+ 
+}
+
+.navbar-default{
+  max-width: 100%;
+}
+
+
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
@@ -106,4 +119,13 @@ h1, h2, h3, h4, h5, h6 {
 #navbar-blog {
   background-color: #161b20f3;
   
+}
+
+.hoverblue {
+  color: black;
+}
+
+.hoverblue :hover {
+  color: #495153;
+
 }

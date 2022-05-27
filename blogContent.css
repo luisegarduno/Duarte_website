@@ -1,7 +1,11 @@
 #navbar-blog {
     background-color: #161b20f3;
-    
+    font-size:medium;
   }
+ 
+ .navbar-default{
+    max-width: 100%;
+}
 
 .overlayOne{
     background-image: url(blogImages/circuit5-26.JPG);
@@ -96,4 +100,12 @@ header.masthead .post-heading .meta, header.masthead .post-heading .subheading {
   font-size: 2.25rem;
   font-weight: 700;
   margin-top: 3.75rem;
+}
+.hoverblue {
+  color: black;
+}
+
+.hoverblue :hover {
+  color: #495153;
+
 }
