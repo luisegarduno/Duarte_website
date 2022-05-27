@@ -1,0 +1,20 @@
+
+
+#navbar-blog {
+    background-color: #161b20f3;
+    
+  }
+
+
+.overlayOne{
+    background-image: url(blogImages/circuit5-26.JPG);
+    background-size: cover;
+}
+
+.whiteText{
+  color: white;
+}
+
+.darkText{
+  color: rgb(0, 0, 0);
+}
