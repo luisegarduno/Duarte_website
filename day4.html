@@ -43,7 +43,7 @@
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
             <div class="post-heading">
-              <h1>Less time than I thought...</h1>
+              <h1>What a Bug...</h1>
               <span class="meta">Posted on May 29th, 2022</span>
             </div>
 
@@ -66,8 +66,8 @@
             </p>
 
             <p>
-              I also got to thinking about the many projects I want to complete over the next 60 days. I already 
-              know the list will grow as time passes, but that's a problem for another day. Nevertheless, I am 
+              I also got to thinking about the many projects I want to complete over the next 60 days. I'll probably share them with
+              you all in the coming days, so be ready. I already know the list will grow as time passes, but that's a problem for another day. Nevertheless, I am 
               scared I will not be able to accomplish as much as I want to over this endeavor after dealing with 
               the Gambit problem over the last day and a half. I am sure it's a learning curve thing, but only time 
               will tell. I just have to keep at it, and don't beat myself up too much over the problems I am sure 
@@ -80,65 +80,47 @@
  
             <h2 class="section-heading">Gambit</h2>
             <p>
-              A '\n'. A '\n'. A '\n' is what has caused me to spend many many hours of my day looking at code that would 
-              not work. 
+              A '\n' and an equal sign. A '\n' and an equal sign. A '\n' and an equal sign is what has caused me to spend many many hours of my day 
+              looking at code that would not work. 
             </p>
 
             <p>
-              I spent many hours trying different approaches and debugging, but came to a point where I got tired of looking 
-              at the the arduiono IDE. So as I normally do, I distracted myself by FaceTiming some friends. One friend that 
-              I called up was Jonathan. A coding legend that I always look to for any advice pertaining to computer science or 
-              anything really now that I think of it. We had a conversation regarding a project he recently started that 
-              incorporated hand gesture recognition with a DC motor. 
+              So looking at what I was trying to accomplish again. I set out to create a script that allowed me to enter 
+              a direction (up, down, left, right), and a number coorelating to the amount of rotations the motor should turn.
+              With this input, the script would then turn the input into respective moves made by the motor. Depending on the 
+              direction, motor one, two, or both would turn clockwise or counter-clockwise. 
             </p>
-
-            
-            <a href="#!">
-              <img class="img-fluid" src="blogImages/5-28code.JPG"> 
-            </a>
-              <span class="caption text-muted">
-                Jonathan: The coding legend
-              </span>
 
             <p>
-              Prior to our conversation, I had no idea that I could get a python script to communicate with an arduino. 
-              This possibility made my mind wander as I knew I could now incorporate a greater chess engine to the 
-              chessboard which would in turn make it a better product. Hopefully, I can learn how to do so within the 
-              coming weeks. It should be pretty interesting.
+              My script seemed to be working fine as I would typically ask it to turn left and provide 20 rotations. However, on the 
+              second time, no matter what direction I asked it to go, if I asked it to turn 20 rotations, the motors would not react. 
+              Also, it would always make the motors turn counter clockwise. Something that should only happen when I type 'left'.
+              In regards to the first problem, I came to find out that the motors stored the position throughout the script and was absolute and not relative. What I 
+              mean by this is that like my good friend Jonathan put it, if you ask a football player to go to the 20 yard line, and then 
+              ask it again, it will not move. However, if it was relative, you would just ask the football to move 20 yards each turn and ultimately, the
+              football player would reach the destination you actually want them to. 
             </p>
 
-        
+            <p>
+              I was able to resolve this reltatively easily by just setting the position of the motor to 0 after 
+              each iteration. The \n problem was a different story. As mentioned, prior to inputting the revolutions, I needed to input 
+              a direction. As I also mentioned, I would always start by entering left into the serial monitor. Always. 
+              What I came to find out was that the reason the motors would always turn counter clockwise was because it was 
+              the first if statement I had within the script. Within this if statement, I used a singular equal sign instead of two. This 
+              single equal sign would always have its condition met as long as I entered something to the serial monitor making the motors 
+              turn counter-clockwise. Always making them turn counter-clockwise. I then added the second equal sign which still did not 
+              resolve my issue. Now no condition was being met across the four directions I had in place. It wasn't until I entered a '\n' 
+              at the end the directions within the condition of the if statements that it worked flawlessly. A '\n' typically notes the creation 
+              of a new line, or hitting enter on the keyboard. Which is something I had to do each time I input something within the serial monitor. 
+              This '\n' and equal sign caused me much pain over the hours that I looked over the code. But boy when I say there was no greater feeling to 
+              seeing the motors turn as I had intended, I mean it. 
+            </p>
+   
             <h2 class="section-heading">SHPE</h2>
             <p>
-              I was able to get the ball rolling on some of my remaining SHPE tasks today. From finishing up the RLDC document to 
-              working on the NCP Report. Within the report, I began adding comments to every section that I saw. These comments 
-              mentioned new information and metrics that have been obtained over the course of the semester that I knew should 
-              be included in the report. Within the next few days, I plan to continue adding more comments and have other officers 
-              add some as well. I want to do my best to have a rough draft of the document completed a week from today.  
-            </p>
-
-            <h2 class="section-heading">Projects</h2>
-            <p>
-              Meditation has always been something that I have strived to turn into a daily habit. The idea of spending a few minutes a day to quiet the mind has always been good for me. 
-              Yet, I find myself not making the time for it. Well, today I did. I spent 10 minutes or so breathing in and out and working diligently to prevent any other thought from 
-              breaching my focus. It was difficult to do so, and even more difficult to restrain myself from looking at the clock to see how close the timer was to 0. I know it will become 
-              easier the more I do it and I know it will bring me a sense of calmness as I go about my days. 
-            </p>
-            
-            <h2 class="section-heading2">Reading</h2>
-            <p>
-              I made it to page 52 today of my book covering essentials of physics from the scope of Richard Feynman. In the pages that I read, concepts were covered pertaining to 
-              quantum physics. A lot of the material went over my head, but it was very interesting to say the least. One topic that stuck with me was the idea that laws are based off
-              of the idea that if an experiment was conducted, it could be replicated time and time again. However, quantum physics reveals that things can never truly be replicated. Things
-              vary greatly on the subatomic level to a point where change is innevitable. Pretty interesting topic if you ask me.
-            </p>
-
-            <h2 class="section-heading2">Reading</h2>
-            <p>
-              I made it to page 52 today of my book covering essentials of physics from the scope of Richard Feynman. In the pages that I read, concepts were covered pertaining to 
-              quantum physics. A lot of the material went over my head, but it was very interesting to say the least. One topic that stuck with me was the idea that laws are based off
-              of the idea that if an experiment was conducted, it could be replicated time and time again. However, quantum physics reveals that things can never truly be replicated. Things
-              vary greatly on the subatomic level to a point where change is innevitable. Pretty interesting topic if you ask me.
+              With the help of the co-chair for RLDC, Brenda, the metrics pertaining to the conference were provided and input within the document that I need 
+              to provide our recommenders with. I have it scheduled to be sent out tomorrow morning, and I truly hope they find the metrics impressive, because what 
+              that team was able to accomplish was a conference worth remembering. 
             </p>
             
             <p>
@@ -146,17 +128,31 @@
               to quantum physics, but who knows, I might be in for a surprise. 
             </p>
 
+            <h2 class="section-heading">Eats</h2>
+            <p>
+              Have you ever tried air fried 'boiled' eggs? Well you should. Heat some up at 270 degrees farenheit for about 15 minutes and 
+              you will have yourself a nice treat. Definetely going to be using this more often than you know. Might have to watch my cholesterol though...
+            </p>
+            
+            <a href="#!">
+              <img class="img-fluid" src="blogImages/5-29eats.JPG"> 
+
+            </a>
+            <span class="caption text-muted">
+              An egg worth having
+            </span>
+
             <h2 class="section-heading">Habit Tracking</h2>
             <p>
-              Today, I journaled, worked out, read, tracked my caloric intake, and worked on atleast one of my personal projects. Today was a good day.
+              Today, I journaled, stretched (quite intensely), read, tracked my caloric intake, and worked on at least one of my personal projects. Today was a good day.
             </p>
 
             <h2 class="section-heading">What I am thankful for</h2>
             <p>
-              I am thankful for individuals who answer questions on coding forums. I would be lost without you.
+              I am thankful for that special someone who I am honored to have spent the last nine months with. Thank you for putting up with me. 
             </p>
             <span class="caption text-muted">
-              We only have one instinct. To survive. We only have one reality. We won't. Do More. - J.D. 
+              All it takes is passion and hard work. Do More. - J.D. 
             </span>
 
             <nav aria-label="..." class="">
