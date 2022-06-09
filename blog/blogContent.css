@@ -2,14 +2,14 @@
     background-color: #161b20f3;
     font-size:medium;
   }
- 
- .navbar-default{
+  
+  .navbar-default{
     max-width: 100%;
 }
 
 .overlayOne{
-    background-image: url(blogImages/circuit5-26.JPG);
-    background-size: cover;
+  background-image: url(../media/images/blog/circuit5-26.JPG);
+  background-size: cover;
 }
 
 .whiteText{
@@ -23,7 +23,6 @@
 
 body {
   font-size: 1.25rem;
-  
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -43,31 +42,32 @@ header.masthead .post-heading, header.masthead .site-heading .meta {
 }
 
 @media (min-width: 992px){
-header.masthead {
+  header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 12.5rem;
-}
+  }
 }
 
 header.masthead {
-    position: relative;
-    margin-bottom: 3rem;
-    padding-top: calc(8rem + 57px);
-    padding-bottom: 8rem;
-    background: no-repeat center center;
-    background-color: #6c757d;
-    background-size: cover;
-    background-attachment: scroll;
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #6c757d;
+  background-size: cover;
+  background-attachment: scroll;
 }
+
 header.masthead:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #212529;
-    opacity: 0.5;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212529;
+  opacity: 0.5;
 }
 
 
@@ -123,6 +123,7 @@ header.masthead .post-heading .meta, header.masthead .post-heading .subheading {
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
 }
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
